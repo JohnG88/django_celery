@@ -1,0 +1,4 @@
+Add to __init__.py in core dir:
+    from .celery import app as celery_app
+
+    __all__ = ("celery_app",)
